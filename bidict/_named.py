@@ -11,6 +11,8 @@ from ._abc import BidirectionalMapping
 from ._bidict import bidict
 
 
+# TODO: Provide a statically-typed NamedBidict a la typing.NamedTuple?
+
 def namedbidict(typename, keyname, valname, base_type=bidict):
     r"""Create a new subclass of *base_type* with custom accessors.
 
